@@ -47,11 +47,7 @@ function Product({productItems}) {
       <h2 className='cart-items-header'>
         Cart Items
       </h2>
-      <div className='clear-cart'>
-        {cart.length >= 1 && (
-          <button className='clear-cart-button' >Clear Cart</button>
-        )}
-      </div>
+      
       {cart.length === 0 && (<div className='cart-itmes-empty'>No Items are added</div>)}
       <div>
         {cart.map((item) => {
