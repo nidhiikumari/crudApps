@@ -81,6 +81,7 @@
 .cart-items-total-price{
   display: flex;
   padding-left: 45%;
+  margin-right: 7px;
 }
 .clear-cart-button{
   border: none;

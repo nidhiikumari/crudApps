@@ -68,6 +68,9 @@ function Product({productItems}) {
               <div className='cart-items-price'>
                 {item.quantity} * ${item.price}
               </div>
+             
+              <button className='cart-items-allremove' onClick={() => dispatch({ type: "REMOVE", payload: item})} >Remove</button>
+              
             </div>
           );
         })}
